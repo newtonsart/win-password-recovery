@@ -1,5 +1,6 @@
 # OSK
 Windows password changer
+Please don't use this for illegal purposes.
 
 ## Usage
 1. Download **[ParrotOS](https://parrotlinux.org/download-security.php)** Security Edition.
