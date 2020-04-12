@@ -1,5 +1,6 @@
 # OSK
-Windows password changer
+Windows password changer.
+
 Please don't use this for illegal purposes.
 
 ## Usage
