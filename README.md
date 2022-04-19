@@ -9,8 +9,8 @@ Please don't use this for illegal purposes.
 3. Boot live from parrot (IMPORTANT): select Forensics Mode to avoid traces...
 4. Open a terminal and write:
 ```
-git clone https://github.com/lilart/OSK
-cd OSK
+git clone https://github.com/newtonsart/win-password-recovery
+cd win-password-recovery
 sudo python3 OSK.py
 ```
 5. Wait until the program is finished, shutdown the computer and boot Windows.
