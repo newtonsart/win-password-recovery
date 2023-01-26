@@ -7,15 +7,16 @@ Please don't use this for illegal purposes.
 1. Download **[ParrotOS](https://parrotlinux.org/download-security.php)** Security Edition.
 2. Flash ParrotOS onto a USB. You can use **[BalenaEtcher](https://www.balena.io/etcher/)**.
 3. Boot live from parrot (IMPORTANT): select Forensics Mode to avoid traces...
-4. Open a terminal and write:
+4. Mount the windows partition ([How to mount a windows partition](https://www.tecmint.com/mount-windows-partition-in-ubuntu/))
+5. Open a terminal and write:
 ```
 git clone https://github.com/newtonsart/win-password-recovery
 cd win-password-recovery
 sudo python3 OSK.py
 ```
-5. Wait until the program is finished, shutdown the computer and boot Windows.
-6. In the login screen run On Screen Keyboard. It will appear a Terminal with administrator permissions.
-7. In the terminal run the following code to change the password:
+6. Wait until the program is finished, shutdown the computer and boot Windows.
+7. In the login screen run On Screen Keyboard. It will appear a Terminal with administrator permissions.
+8. In the terminal run the following code to change the password:
 ```
 net user {USERNAME} {NEW_PASSWORD}
 ```
