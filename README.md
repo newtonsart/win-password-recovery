@@ -4,7 +4,7 @@ Windows password changer.
 Please don't use this for illegal purposes.
 
 ## Usage
-1. Download **[ParrotOS](https://parrotlinux.org/download-security.php)** Security Edition.
+1. Download **[ParrotOS](https://parrotlinux.org/download/)** Security Edition.
 2. Flash ParrotOS onto a USB. You can use **[BalenaEtcher](https://www.balena.io/etcher/)**.
 3. Boot live from parrot (IMPORTANT): select Forensics Mode to avoid traces...
 4. Mount the windows partition ([How to mount a windows partition](https://www.tecmint.com/mount-windows-partition-in-ubuntu/))
